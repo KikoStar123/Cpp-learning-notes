@@ -1,2 +1,1 @@
-# RPG_Game1
-http://oj.bmeonline.cn/contest.php?cid=1018
+这是一些私人的平常学习代码的代码分享
