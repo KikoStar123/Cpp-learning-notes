@@ -2,7 +2,7 @@
 Author: error: git config user.name && git config user.email & please set dead value or install git
 Date: 2022-09-15 19:27:04
 LastEditors: error: git config user.name && git config user.email & please set dead value or install git
-LastEditTime: 2022-09-15 22:48:23
+LastEditTime: 2022-09-22 16:20:02
 FilePath: \CODE\python\test1.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
@@ -11,7 +11,7 @@ import keyword
 msg = "Hello world!"
 print(msg)
 print("你好")
-print(math.factorial(100))
+print(math.factorial(100))##x的阶乘
 print(0.1+0.2 == 0.3)
 a = 'seu'
 print(id(a))
