@@ -1,4 +1,4 @@
-#include <iostream> //成员函数版本
+#include <iostream> //友元函数版本
 using namespace std;
 
 class Complex
@@ -90,6 +90,7 @@ Complex &operator*=(Complex &a, const Complex &b)
     Complex t = a;
     t.r = a.r * b.r - a.i * b.i;
     t.i = a.r * b.i + b.r * a.i;
+    a = t;
     return t;
 }
 Complex &operator*=(Complex &a, double b)
@@ -103,6 +104,7 @@ Complex &operator/=(Complex &a, const Complex &b)
     Complex t = a;
     t.r = (a.r * b.r + a.i * b.i) / (b.r * b.r + b.i * b.i);
     t.i = (a.i * b.r - a.r * b.i) / (b.r * b.r + b.i * b.i);
+    a = t;
     return t;
 }
 Complex &operator/=(Complex &a, double b)
